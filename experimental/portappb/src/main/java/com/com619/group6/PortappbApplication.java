@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class PortappbApplication {
+    private PortappbApplication() {
+    }
+
     static void main(final String[] args) {
         SpringApplication.run(PortappbApplication.class, args);
     }
