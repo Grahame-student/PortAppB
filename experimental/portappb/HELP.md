@@ -1,6 +1,6 @@
 # Getting Started
 
-### Reference Documentation
+## Reference Documentation
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
@@ -12,7 +12,7 @@ For further reference, please consider the following sections:
 * [Jersey](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#boot-features-jersey)
 * [Vaadin](https://vaadin.com/spring)
 
-### Guides
+## Guides
 The following guides illustrate how to use some features concretely:
 
 * [Securing a Web Application](https://spring.io/guides/gs/securing-web/)
