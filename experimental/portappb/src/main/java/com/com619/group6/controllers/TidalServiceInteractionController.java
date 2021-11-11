@@ -13,32 +13,31 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class TidalServiceInteractionController {
-
     /**
-     * Get the height of the tide at the port. Optionally accepts time. If time not
-     * supplied then will check tide height at time of request.
+     * Get the height of the tide at the port. Optionally accepts time. If time
+     * not supplied then will check tide height at time of request.
      *
      * @param time Time to check tide height (optional)
      * @return Integer tide height in meters
      */
     @GetMapping(value = "/getTideHeight")
-    public int getTideHeight(@RequestParam(required = false) LocalDateTime time) {
-
+    public int getTideHeight(
+            @RequestParam(required = false) final LocalDateTime time) {
         return 1;
     }
 
     /**
-     * Is the height of the tide acceptable? Optionally accepts time. If time not
-     * supplied then will check tide height at time of request.
+     * Is the height of the tide acceptable? Optionally accepts time. If time
+     * not supplied then will check tide height at time of request.
      *
      * @param time Time to check tide height (optional)
      * @return boolean indicating whether tide is acceptable
-     * @TODO: Accept ship info? Different ships have different displacements so some
-     * ships might be ok in high tide.
+     * @TODO: Accept ship info? Different ships have different displacements so
+     *        some ships might be ok in high tide.
      */
     @GetMapping(value = "/isOkTideHeight")
-    public boolean isOkTideHeight(@RequestParam(required = false) LocalDateTime time) {
-
+    public boolean isOkTideHeight(
+            @RequestParam(required = false) final LocalDateTime time) {
         return true;
     }
 

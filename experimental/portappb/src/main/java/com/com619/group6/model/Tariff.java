@@ -60,10 +60,10 @@ public class Tariff {
     }
 
     /**
-     * @param description the description to set
+     * @param newDescription the description to set
      */
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDescription(final String newDescription) {
+        this.description = newDescription;
     }
 
 }
