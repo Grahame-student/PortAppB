@@ -30,7 +30,6 @@ public class SchedulingController {
     @GetMapping(value = "/isBerthAvailable")
     public boolean isBerthAvailable(@RequestParam(required = true) int berthID,
                                     @RequestParam(required = false) LocalDateTime time) {
-
         return true;
     }
 
