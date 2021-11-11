@@ -8,7 +8,6 @@ import java.util.List;
  * @author WhitearL
  */
 public class PortServiceOrder {
-
     private List<PortService> servicesRequired;
     private List<Stevedore> assignedStevedores;
     private double totalCost;
@@ -67,5 +66,4 @@ public class PortServiceOrder {
     public void setTotalCost(double totalCost) {
         this.totalCost = totalCost;
     }
-
 }
