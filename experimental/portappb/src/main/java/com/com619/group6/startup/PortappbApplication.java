@@ -5,20 +5,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Application entry class.
- * 
- * @author WhitearL
  *
+ * @author WhitearL
  */
 @SpringBootApplication
 public class PortappbApplication {
 
-	/**
-	 * Entry point.
-	 * 
-	 * @param args Command line arguments
-	 */
-	public static void main(String[] args) {
-		SpringApplication.run(PortappbApplication.class, args);
-	}
+    /**
+     * Entry point.
+     *
+     * @param args Command line arguments
+     */
+    public static void main(String[] args) {
+        SpringApplication.run(PortappbApplication.class, args);
+    }
 
 }
