@@ -96,7 +96,9 @@
   <!-- </module> -->
 
   <module name="TreeWalker">
-
+  
+    <!-- Allow for inline supression of violations using comments -->
+    <module name="SuppressionCommentFilter"/>
     <!-- Checks for Javadoc comments.                     -->
     <!-- See https://checkstyle.org/config_javadoc.html -->
     <module name="InvalidJavadocPosition"/>
