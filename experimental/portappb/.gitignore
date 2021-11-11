@@ -43,6 +43,6 @@ nb-configuration.xml
 derby.log
 
 node_modules
-package.json
+package-lock.json
 webpack.config.js
 webpack.generated.js

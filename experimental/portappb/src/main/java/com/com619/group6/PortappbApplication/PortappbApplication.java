@@ -1,4 +1,4 @@
-package com.com619.group6;
+package com.com619.group6.PortappbApplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 //CHECKSTYLE:ON
 public class PortappbApplication {
-    private PortappbApplication() {
+    PortappbApplication() {
     }
-
-    static void main(final String[] args) {
+    public static void main(final String[] args) {
         SpringApplication.run(PortappbApplication.class, args);
     }
 }
