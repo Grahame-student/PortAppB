@@ -35,7 +35,7 @@
     "@vaadin/vaadin-details": "1.2.0",
     "@vaadin/vaadin-development-mode-detector": "2.0.4",
     "@vaadin/vaadin-dialog": "2.5.2",
-    "@vaadin/vaadin-element-mixin": "2.4.2",
+    "@vaadin/vaadin-element-mixin": "21.0.4",
     "@vaadin/vaadin-form-layout": "2.3.0",
     "@vaadin/vaadin-grid": "5.8.4",
     "@vaadin/vaadin-grid-pro": "2.3.0",
